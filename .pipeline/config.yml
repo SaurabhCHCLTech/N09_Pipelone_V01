@@ -3,11 +3,11 @@ steps:
  gctsDeploy:
  host: "https://hcluks4hana.hcldigilabs.com:8001/"
  client: "200"
- abapCredentialsId: "<credentials_saved_in_jenkins>"
- repository: "<repo_name>"
- remoteRepositoryURL: "<repository_url>"
+ abapCredentialsId: "SAPCredsForN09200"
+ repository: "N09_REPO002"
+ remoteRepositoryURL: "https://github.com/SaurabhCHCLTech/N09_REPO002.git"
  role: "SOURCE"
- vSID: "<the_vsid_assigned_to_you>"
+ vSID: "YSC"
  verbose: true
  type: "GITHUB"
  rollback: false

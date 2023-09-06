@@ -1,8 +1,8 @@
 general:
 steps:
  gctsDeploy:
- host: "https://tst.opensap.consarea.com:44300"
- client: "100"
+ host: "https://hcluks4hana.hcldigilabs.com:8001/"
+ client: "200"
  abapCredentialsId: "<credentials_saved_in_jenkins>"
  repository: "<repo_name>"
  remoteRepositoryURL: "<repository_url>"

@@ -1,0 +1,13 @@
+general:
+steps:
+ gctsDeploy:
+ host: "https://tst.opensap.consarea.com:44300"
+ client: "100"
+ abapCredentialsId: "<credentials_saved_in_jenkins>"
+ repository: "<repo_name>"
+ remoteRepositoryURL: "<repository_url>"
+ role: "SOURCE"
+ vSID: "<the_vsid_assigned_to_you>"
+ verbose: true
+ type: "GITHUB"
+ rollback: false
